@@ -1,9 +1,11 @@
-import styled from "styled-components"
+import styled from 'styled-components';
 
 const StyledHeader = styled.header`
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-`
+  position: relative;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
 
-export { StyledHeader }
+export { StyledHeader };

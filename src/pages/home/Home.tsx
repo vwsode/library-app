@@ -1,10 +1,13 @@
-import React, { FC } from 'react'
-import BookInfo from '../BookInfo/BookInfo'
+import React, { FC } from 'react';
+import { IBookInfo } from '../../core/intefaces/IBookInfo.interfce';
+import BookInfo from '../BookInfo/BookInfo';
 
 const Home: FC = () => {
   return (
-    <div><BookInfo/></div>
-  )
-}
+    <div>
+      <BookInfo />
+    </div>
+  );
+};
 
-export default Home
+export default Home;
